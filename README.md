@@ -1,5 +1,8 @@
 # Gridlock
-A puzzle game with a custom PCB
+A puzzle game with a custom PCB.
+
+# Gameplay
+LEDs are randomly turned on or off. Each of the three keys applys a mask (flipping their state) to the current LED matrix. The goal of the game is to turn all the LEDs on. You can press the reset button (top left) to get a new game.
 
 ![Screenshot 2025-07-04 233145](https://github.com/user-attachments/assets/6cb75abb-c12f-4587-a747-fb8aab0228ad)
 ![Screenshot 2025-07-04 232209](https://github.com/user-attachments/assets/1e2e90f6-774d-427d-aa73-7693c2f4b90e)
