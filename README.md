@@ -1,6 +1,10 @@
 # Gridlock
 A puzzle game with a custom PCB.
 
+
+*dear @Meghana, the 2 hackatime projects related to this submission is called "game" and "pathfinder", thank you!*
+
+
 # Gameplay
 LEDs are randomly turned on or off. Each of the three keys applys a mask (flipping their state) to the current LED matrix. The goal of the game is to turn all the LEDs on. You can press the reset button (top left) to get a new game.
 
