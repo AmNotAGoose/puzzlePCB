@@ -89,6 +89,31 @@ void checkWin() {
       digitalWrite(leds[i], LOW);
     }
   }
+
+  for (int j = 0; j < 6; j++) {
+    for (int i = 0; i < 6; i++) {
+      if (j % 2 == 0) {
+        if (i % 2 == 0) {
+          digitalWrite(leds[i], HIGH);
+        }
+      } else {
+        if (i % 2 != 0) {
+          digitalWrite(leds[i], HIGH);
+        }
+      }
+    }
+
+    delay(200);
+
+    for (int i = 0; i < 6; i++) {
+      digitalWrite(leds[i], LOW);
+    }
+  }
+
+  
+  for (int i = 0; i < 6; i++) {
+    digitalWrite(leds[i], LOW);
+  }
   
   delay(500);
   generateInitalState();
